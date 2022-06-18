@@ -22,13 +22,21 @@ function Homepage() {
         </p>
         <div>
           <a href="https://github.com/sash9696" target="_blank">
-            <img src={githubIcon} alt="githubIconimage" />
+            <img
+              src={githubIcon}
+              alt="githubIconimage"
+              className="homepage_logo"
+            />
           </a>
           <a
             href="https://www.linkedin.com/in/sahil-chopra-56a63b191/"
             target="_blank"
           >
-            <img src={linkedinIcon} alt="linkedinIconimage" />
+            <img
+              src={linkedinIcon}
+              alt="linkedinIconimage"
+              className="homepage_logo"
+            />
           </a>
         </div>
         <a href="mailto:sahilchopra838@gmail.com">
